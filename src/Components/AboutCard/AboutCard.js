@@ -23,7 +23,7 @@ function AboutCard() {
               & mineral shows around the states.
               <br />
               <br />
-              After retiring from my teaching career, I decided to turn my hobby
+              After retiring from teaching, I decided to turn my hobby
               into a new career! I completed a jewelry course at the New
               Approach School for Jewelers in order to fine-tune my skills to
               create beautiful, custom pieces.
