@@ -1,0 +1,22 @@
+.homeImage{
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.linksContainer{
+  display: flex;
+  justify-content: center;
+}
+
+.homeLinks{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-bottom: 5%;
+}
+
+.link{
+  margin: 0 10px;
+}
