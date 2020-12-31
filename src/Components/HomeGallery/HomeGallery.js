@@ -19,19 +19,19 @@ function HomeGallery() {
           <Image src="./images/IMG_2162.JPG" rounded/>
         </Col>
         <Col  className="galleryImage" md={3}>
+          <Image src="./images/IMG_2072.JPG" rounded/>
+        </Col>
+        <Col  className="galleryImage" md={3}>
           <Image src="./images/IMG_2152.JPG" rounded/>
+        </Col>
+        <Col  className="galleryImage" md={3}>
+          <Image src="./images/IMG_2133.jpeg" rounded/>
         </Col>
         <Col  className="galleryImage" md={3}>
           <Image src="./images/IMG_2144.JPG" rounded/>
         </Col>
         <Col  className="galleryImage" md={3}>
           <Image src="./images/IMG_2135.JPG" rounded/>
-        </Col>
-        <Col  className="galleryImage" md={3}>
-          <Image src="./images/IMG_2133.jpeg" rounded/>
-        </Col>
-        <Col  className="galleryImage" md={3}>
-          <Image src="./images/IMG_2072.JPG" rounded/>
         </Col>
       </Row>
     </Container>

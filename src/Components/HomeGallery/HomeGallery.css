@@ -3,3 +3,14 @@
   justify-content: center;
   margin-bottom: 5%;
 }
+
+.galleryImage{
+  padding: .5rem;
+  width: 100%;
+  height: auto;
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
