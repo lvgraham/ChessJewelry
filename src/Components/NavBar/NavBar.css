@@ -1,0 +1,17 @@
+.navImage{
+  display: flex;
+  justify-content: flex-start;
+}
+
+img{
+  width: 25%;
+  height: auto;
+}
+
+.navLinks{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-bottom: 5%;
+  padding-top: 5%;
+}

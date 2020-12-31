@@ -1,16 +1,26 @@
-import HomeLogo from '../Components/HomeLogo/HomeLogo'
-import HomeGallery from '../Components/HomeGallery/HomeGallery'
+import React from "react";
+import HomeLogo from "../Components/HomeLogo/HomeLogo";
+import HomeGallery from "../Components/HomeGallery/HomeGallery";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import Container from "react-bootstrap/Container";
+import "../Components/HomeLogo/HomeLogo.css";
 
-function App() {
+function Home() {
   return (
-    <div className="App">
+    <Container>
       <HomeLogo />
+      <Row className="linksContainer">
+        <Col lg={8} className="homeLinks">
+          <div className="link">Home</div>
+          <div className="link">About</div>
+          <div className="link">Shop</div>
+          <div className="link">Contact</div>
+        </Col>
+      </Row>
       <HomeGallery />
-    </div>
+    </Container>
   );
 }
 
-export default App;
-
-
-<HomeLogo />
+export default Home;

@@ -13,14 +13,6 @@ function HomeLogo() {
           <Image src='./images/chessjewelry.png' fluid />
         </Col>
       </Row>
-      <Row className='linksContainer'>
-        <Col lg={8} className='homeLinks'>
-          <div className='link'>Home</div>
-          <div className='link'>About</div>
-          <div className='link'>Shop</div>
-          <div className='link'>Contact</div>
-        </Col>
-      </Row>
     </Container>
   )
 }
