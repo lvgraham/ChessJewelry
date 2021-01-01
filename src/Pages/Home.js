@@ -14,7 +14,7 @@ function Home() {
       <Row className="linksContainer">
         <Col lg={8} className="homeLinks">
           <Link to='/' className="link">Home</Link>
-          <Link to='/Shop' className="link">Shop</Link>
+          <a href='https://www.etsy.com/shop/ChessJewelry' rel="noreferrer" target='_blank' className="link">Shop</a>
           <Link to='/About' className="link">About</Link>
           <Link to='/Contact' className="link">Contact</Link>
         </Col>

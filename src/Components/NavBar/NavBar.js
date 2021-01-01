@@ -16,7 +16,7 @@ function NavBar() {
           </Link>
           <Navbar.Text className="navLinks">
             <Link to='/' className="link">Home</Link>
-            <Link to='/Shop' className="link">Shop</Link>
+            <a href='https://www.etsy.com/shop/ChessJewelry' rel="noreferrer" target='_blank' className="link">Shop</a>
             <Link to='/About' className="link">About</Link>
             <Link to='/Contact' className="link">Contact</Link>
           </Navbar.Text>
