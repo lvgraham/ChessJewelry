@@ -7,10 +7,10 @@ import './HomeLogo.css'
 
 function HomeLogo() {
   return(
-    <Container>
+    <Container className="homeImageContainer">
       <Row className='homeImage'>
         <Col lg={8}>
-          <Image src='./images/chessjewelry.png' fluid />
+          <Image src='./images/HomeLogo.png' fluid />
         </Col>
       </Row>
     </Container>

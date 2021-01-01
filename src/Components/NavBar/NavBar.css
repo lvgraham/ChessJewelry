@@ -1,9 +1,10 @@
-.navImage{
+.navImageContainer{
   display: flex;
   justify-content: flex-start;
+  
 }
 
-img{
+.navImage{
   width: 25%;
   height: auto;
 }

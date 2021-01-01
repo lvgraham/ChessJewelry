@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Navbar from "react-bootstrap/Navbar";
 import Image from "react-bootstrap/Image";
 import Container from "react-bootstrap/Container";
@@ -10,14 +11,14 @@ function NavBar() {
     <Container className="navContainer">
       <Row>
         <Navbar>
-          <Navbar.Brand className="navImage" href="#home">
-            <Image src="./images/chessjewelry.png" />
-          </Navbar.Brand>
+          <Link to='/' className="navImageContainer" >
+            <Image className="navImage" src="./images/chessjewelry.png" />
+          </Link>
           <Navbar.Text className="navLinks">
-            <div className="link">Home</div>
-            <div className="link">About</div>
-            <div className="link">Shop</div>
-            <div className="link">Contact</div>
+            <Link to='/' className="link">Home</Link>
+            <Link to='/Shop' className="link">Shop</Link>
+            <Link to='/About' className="link">About</Link>
+            <Link to='/Contact' className="link">Contact</Link>
           </Navbar.Text>
         </Navbar>
       </Row>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import HomeLogo from "../Components/HomeLogo/HomeLogo";
 import HomeGallery from "../Components/HomeGallery/HomeGallery";
 import Row from "react-bootstrap/Row";
@@ -12,10 +13,10 @@ function Home() {
       <HomeLogo />
       <Row className="linksContainer">
         <Col lg={8} className="homeLinks">
-          <div className="link">Home</div>
-          <div className="link">About</div>
-          <div className="link">Shop</div>
-          <div className="link">Contact</div>
+          <Link to='/' className="link">Home</Link>
+          <Link to='/Shop' className="link">Shop</Link>
+          <Link to='/About' className="link">About</Link>
+          <Link to='/Contact' className="link">Contact</Link>
         </Col>
       </Row>
       <HomeGallery />

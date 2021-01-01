@@ -14,11 +14,15 @@
   font-size: 15px;
   width: 100%;
   height: auto;
-  margin-left: -10%;
+  margin-left: -15%;
+}
+
+.imageDiv{
+  display: flex;
+  justify-content: center;
 }
 
 .aboutImage{
   width: 55%;
   height: auto;
-  padding: 0;
 }
