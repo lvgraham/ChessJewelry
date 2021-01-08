@@ -1,6 +1,7 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
 import NavBar from "../Components/NavBar/NavBar";
+import ContactHeader from "../Components/ContactCard/ContactHeader"
 import ContactCard from "../Components/ContactCard/ContactCard"
 
 
@@ -9,6 +10,7 @@ function About() {
   return (
     <Container>
       <NavBar />
+      <ContactHeader/>
       <ContactCard/>
     </Container>
   );

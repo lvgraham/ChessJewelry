@@ -1,4 +1,14 @@
-.contactCard{
+.contactCard {
   display: flex;
   justify-content: center;
+  margin-top: 5%;
+}
+
+h1 {
+  text-align: center;
+}
+
+a,
+a:hover {
+  color: black;
 }
