@@ -1,9 +1,7 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
 import NavBar from "../Components/NavBar/NavBar";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebookSquare, faInstagram } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelopeSquare, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
+import ContactCard from "../Components/ContactCard/ContactCard"
 
 
 
@@ -11,13 +9,7 @@ function About() {
   return (
     <Container>
       <NavBar />
-      <hr/>
-      <h1>Contact</h1>
-      <hr/>
-      <h4><FontAwesomeIcon icon={faMapMarkerAlt}/> Edwards, CO</h4>
-      <h4><FontAwesomeIcon icon={faEnvelopeSquare}/> chessjewelry@gmail.com</h4>
-      <h4><FontAwesomeIcon icon={faFacebookSquare}/> https://facebook.com/chessjewelry</h4>
-      <h4><FontAwesomeIcon icon={faInstagram} /> https://www.instagram.com/chessjewelry100/</h4>
+      <ContactCard/>
     </Container>
   );
 }
