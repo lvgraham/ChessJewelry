@@ -17,6 +17,7 @@ function App() {
           <Route path="/contact" component={Contact} />
         </Switch>
       </div>
+      {console.log('app.js is working')}
     </Router>
   );
 }
