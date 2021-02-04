@@ -8,7 +8,7 @@ import Contact from "./Pages/Contact";
 
 function App() {
   return (
-    <Router basename ="/chess-jewelry">
+    <Router basename ="/chessjewelry">
       <div className="App">
         <Switch>
           <Route exact path="/" component={Home} />
@@ -17,7 +17,6 @@ function App() {
           <Route path="/contact" component={Contact} />
         </Switch>
       </div>
-      {console.log('app.js is working')}
     </Router>
   );
 }
