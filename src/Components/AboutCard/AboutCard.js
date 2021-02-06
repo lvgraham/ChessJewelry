@@ -7,7 +7,7 @@ import "./AboutCard.css";
 
 function AboutCard() {
   return (
-    <Container>
+    <Container className="mainContainer">
       <Row className="aboutContainer">
         <Col lg={6}>
           <div className="imageDiv">
