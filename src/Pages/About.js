@@ -8,7 +8,6 @@ function About() {
     <Container>
       <NavBar />
       <AboutCard />
-      {console.log('about.js is working')}
     </Container>
   );
 }
