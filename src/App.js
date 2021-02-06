@@ -8,7 +8,7 @@ import Contact from "./Pages/Contact";
 
 function App() {
   return (
-    <Router>
+    <Router Basename="/">
       <div className="App">
         <Switch>
           <Route exact path="/" component={Home} />
