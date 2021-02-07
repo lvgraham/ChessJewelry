@@ -11,15 +11,32 @@ function NavBar() {
     <Container className="navContainer">
       <Row>
         <Navbar>
-          <Link to='/' className="navImageContainer" >
-            <Image className="navImage" src="./images/chessjewelry.png" />
-          </Link>
-          <Navbar.Text className="navLinks">
-            <Link to='/' className="link">Home</Link>
-            <a href='https://www.etsy.com/shop/ChessJewelry' rel="noreferrer" target='_blank' className="link">Shop</a>
-            <Link to='/About' className="link">About</Link>
-            <Link to='/Contact' className="link">Contact</Link>
-          </Navbar.Text>
+          <div>
+            <Link to="/" className="navImageContainer">
+              <Image className="navImage" src="./images/chessjewelry.png" />
+            </Link>
+          </div>
+          <div>
+            <Navbar.Text className="navLinks">
+              <Link to="/" className="link">
+                Home
+              </Link>
+              <a
+                href="https://www.etsy.com/shop/ChessJewelry"
+                rel="noreferrer"
+                target="_blank"
+                className="link"
+              >
+                Shop
+              </a>
+              <Link to="/About" className="link">
+                About
+              </Link>
+              <Link to="/Contact" className="link">
+                Contact
+              </Link>
+            </Navbar.Text>
+          </div>
         </Navbar>
       </Row>
     </Container>
